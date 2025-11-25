@@ -1,0 +1,94 @@
+# Python 字节码
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 日志文件
+*.log
+logs/
+
+# 大文件数据（模型、索引、数据集）
+data/raw/
+data/processed/
+models/
+indexes/
+*.pkl
+*.h5
+*.pb
+*.onnx
+*.pt
+*.bin
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 本地配置文件
+configs/local.yaml
+configs/secrets.yaml
+
+# 文档构建
+docs/_build/
+docs/build/

@@ -1,0 +1,30 @@
+# environment.yml - Conda环境配置
+name: gprf-env
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  
+  # 核心依赖
+  - pytorch>=1.12.0
+  - torchvision
+  - torchaudio
+  - cpuonly  # 如果没有GPU，移除此行
+  
+  - pip
+  - pip:
+    - transformers>=4.21.0
+    - datasets>=2.4.0
+    - pyserini>=0.21.0
+    - faiss-cpu>=1.7.0
+    - tqdm>=4.64.0
+    - PyYAML>=6.0
+    
+    # 开发依赖
+    - pytest>=7.0.0
+    - black>=22.0.0
+    - jupyter>=1.0.0

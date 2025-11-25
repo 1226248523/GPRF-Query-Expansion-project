@@ -1,0 +1,23 @@
+# 自动检测文本文件并执行LF标准化
+* text=auto
+
+# Python文件
+*.py text eol=lf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# YAML文件
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Markdown文件
+*.md text eol=lf
+
+# 大文件（如果使用Git LFS）
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
