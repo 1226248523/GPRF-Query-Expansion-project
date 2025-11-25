@@ -25,8 +25,8 @@
 1. **克隆项目**
 
    ```bash
-   git clone https://github.com/your-username/gprf-query-expansion.git
-   cd gprf-query-expansion
+   git clone https://github.com/1226248523/GPRF-Query-Expansion-Project.git
+   cd GPRF-Query-Expansion-Project
    ```
 2. **创建虚拟环境**
 
@@ -83,6 +83,7 @@ gprf-query-expansion/
 ├── src/gprf/                 # 核心库
 │   ├── __init__.py
 │   ├── core/                # 生成器/检索器/扩展器
+│   │   ├── __init__.py
 │   │   ├── generators.py
 │   │   ├── retrievers.py
 │   │   └── expanders.py
@@ -134,7 +135,7 @@ gprf-query-expansion/
 
 ## 📖 文档
 
-- `docs/智能检索中基于生成式模型和伪相关反馈的查询扩展方法_秦春秀.pdf`：原论文，描述了方法背景与细节
+- `docs/智能检索中基于生成式模型和伪相关反馈的查询扩展方法_秦春秀.pdf`：项目参考论文，描述了GPRF的方法背景与细节
 - `README.md`：快速开始与项目说明
 - `examples/basic_usage.py`：API 使用示例
 - `CONTRIBUTING.md`：贡献流程与开发规范
@@ -151,7 +152,5 @@ gprf-query-expansion/
 ## 🙏 致谢
 
 - 基于论文《智能检索中基于生成式模型和伪相关反馈的查询扩展方法》思想设计核心代码
-- 基于 Cursor 工具的 AI Coding/Vibe Coding 完成代码开发
-- 使用了 Facebook DPR、BART 等优秀开源项目
-
-
+- 基于 Cursor 工具的 AI Coding (Vibe Coding) 完成代码开发
+- 使用了 Facebook DPR、BART 等 Huggingface 社区的优秀开源项目
