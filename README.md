@@ -139,7 +139,7 @@ gprf-query-expansion/
 - `README.md`：快速开始与项目说明
 - `examples/basic_usage.py`：API 使用示例
 - `CONTRIBUTING.md`：贡献流程与开发规范
-- （计划中）`docs/api.md`、`docs/architecture.md` 等可扩展文档占位
+- （计划中）`docs/api.md`、`docs/architecture.md` 等可扩展文档
 
 ## 🤝 贡献指南
 
