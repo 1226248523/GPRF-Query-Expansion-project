@@ -151,5 +151,7 @@ gprf-query-expansion/
 ## 🙏 致谢
 
 - 基于论文《智能检索中基于生成式模型和伪相关反馈的查询扩展方法》思想设计核心代码
-- 基于Cursor AI Coding/Vibe Coding 完成代码开发
-- 使用了 Facebook DPR、Hugging Face Transformers 等优秀开源项目
+- 基于 Cursor 工具的 AI Coding/Vibe Coding 完成代码开发
+- 使用了 Facebook DPR、BART 等优秀开源项目
+
+
